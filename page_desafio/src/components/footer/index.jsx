@@ -9,16 +9,24 @@ const Footer = () => {
   return (
     <div className="footer" id="footer">
       <div className="icons">
-        <a href="https://www.instagram.com/furiagg/" target="_blank">
+        <a
+          id="instagram"
+          href="https://www.instagram.com/furiagg/"
+          target="_blank"
+        >
           <img width={widthIcons} src={instagram} alt="Instagram" />
         </a>
-        <a href="https://x.com/FURIA" target="_blank">
+        <a id="twitter" href="https://x.com/FURIA" target="_blank">
           <img width={widthIcons} src={twitter} alt="X" />
         </a>
-        <a href="https://www.youtube.com/@FURIAggCS" target="_blank">
+        <a
+          id="youtube"
+          href="https://www.youtube.com/@FURIAggCS"
+          target="_blank"
+        >
           <img width={widthIcons} src={youtube} alt="youtube" />
         </a>
-        <a href="https://www.tiktok.com/@furia" target="_blank">
+        <a id="tiktok" href="https://www.tiktok.com/@furia" target="_blank">
           <img width={widthIcons} src={tiktok} alt="TikTok" />
         </a>
       </div>

@@ -40,6 +40,7 @@
 #medal7:hover,
 #medal8:hover,
 #medal9:hover{
+    transition: 0.5s;
     transform: scale(1.01);
     border-image: linear-gradient(90deg, rgba(21,21,21,1) 0%, rgba(255,255,255,1) 50%, rgba(21,21,21,1) 100%); 
     border-image-slice: 1;
