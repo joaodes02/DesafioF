@@ -42,3 +42,20 @@ header {
     align-items: center;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1500px){
+     .titles h4, a {
+
+        font-size: 12px;
+        
+    }
+}
+@media screen and (max-width: 407px){
+    .titles{
+        display: none;
+       
+   }
+   .navbar img {
+    align-items: center;
+   }
+}

@@ -16,3 +16,19 @@ h2{
     margin-bottom: 10px;
 }
 
+@media screen and (max-width: 1451px){
+    .container-players{
+        margin-bottom: 400px;
+    }
+}
+@media screen and (max-width: 877px){
+    .container-players{
+        margin-bottom: 800px;
+    }
+}
+@media screen and (max-width: 590px){
+    .container-players{
+        margin-bottom: 1700px;
+    }
+}
+

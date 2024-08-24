@@ -27,7 +27,10 @@
     gap: 30px; 
 }
 .text{
-width: 550px;
+    font-size: clamp(0.4rem, 4vw, 1.2rem);
+    padding: 15px;
+    max-width: 600px;
+
 }
 
 #instagram:hover,
@@ -37,3 +40,48 @@ width: 550px;
     transition: 0.5s;
     transform: scale(1.1);
 }
+
+@media screen and (max-width:785px){
+    .container-footer{
+        flex-direction: column;
+    }
+    .footer{
+        margin-top: 170px;
+        padding-bottom:150px;
+    }
+}
+/* 
+@media screen and (max-width: 596px){
+    .footer{
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width: 477px){
+    .footer{
+        margin-top:140px;
+    }
+}
+@media screen and (max-width: 420px){
+    .footer{
+         margin-top:220px; 
+        
+    }
+}@media screen and (max-width: 376px){
+    .footer{
+         margin-top:260px; 
+        
+    }
+}
+
+@media screen and (max-width: 365px){
+    .footer{
+         margin-top:280px; 
+        
+    }
+}
+@media screen and (max-width: 356px){
+    .footer{
+         margin-top:350px; 
+        
+    }
+} */
