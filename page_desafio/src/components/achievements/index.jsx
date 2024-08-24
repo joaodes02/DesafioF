@@ -1,4 +1,4 @@
-import Achievement from "../Achievement/index.jsx";
+import Achievement from "../achievement/index.jsx";
 import "./achievements.css";
 
 const Achievements = ({ achievements }) => {
