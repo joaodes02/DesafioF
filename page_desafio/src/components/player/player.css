@@ -1,0 +1,39 @@
+.container-player{
+    height: 365px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8%;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175); 
+    padding: 1rem; 
+    margin-bottom: 3rem;
+    background-color: #ffffff; 
+    border-radius: .75rem; 
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease, background 0.5s ease;
+    overflow: hidden;
+}
+.info-player strong{
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+.info-player span{
+    display: block;
+    text-align: center;
+}
+
+
+#player1:hover,
+#player2:hover,
+#player3:hover,
+#player4:hover,
+#player5:hover {
+    transform: scale(1.1);
+    background: linear-gradient(180deg, rgba(30,30,31,0.2) 40%, rgba(255,255,255,1) 60%);
+    cursor: pointer;
+}
+
+
+

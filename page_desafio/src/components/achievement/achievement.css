@@ -1,0 +1,47 @@
+.info-achievement{
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    background: linear-gradient(90deg, rgba(21,21,21,1) 5%, rgba(63,63,63,1) 50%, rgba(21,21,21,1) 95%);
+    padding: 8px;  
+    margin: 16px 32px;
+    border-top: 2px solid; 
+    border-bottom: 2px solid; 
+    border-image: linear-gradient(90deg, rgba(21,21,21,1) 5%, rgba(255,255,255,1) 50%, rgba(21,21,21,1) 95%); 
+    border-image-slice: 1;
+    cursor: pointer;
+    
+}
+
+.info-achievement span{
+    font-weight: bold;
+    color: #fff;
+}
+
+.achievement-position{
+    display: flex;
+    align-items: center;
+    width: 140px;
+
+}
+
+
+
+#camp{
+    width: 335px;
+}
+
+#medal1:hover,
+#medal2:hover,
+#medal3:hover,
+#medal4:hover,
+#medal5:hover,
+#medal6:hover,
+#medal7:hover,
+#medal8:hover,
+#medal9:hover{
+    transform: scale(1.01);
+    border-image: linear-gradient(90deg, rgba(21,21,21,1) 0%, rgba(255,255,255,1) 50%, rgba(21,21,21,1) 100%); 
+    border-image-slice: 1;
+    
+}
