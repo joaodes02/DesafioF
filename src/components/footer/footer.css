@@ -11,7 +11,7 @@
 .icons {
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 40px;
   padding-bottom: 10px;
   border-bottom: 2px solid black;
   border-image: linear-gradient(
@@ -49,7 +49,7 @@
     flex-direction: column;
   }
   .footer {
-    margin-top: 200px;
+    margin-top: 220px;
     padding-bottom: 150px;
   }
 }
