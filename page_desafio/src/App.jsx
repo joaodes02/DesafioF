@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 import Header from "./components/header/index.jsx";
 import Carrosel from "./components/carousel/index.jsx";
 import Players from "./components/players/index.jsx";
@@ -13,7 +12,7 @@ function App() {
       imageUrl:
         "https://img-cdn.hltv.org/playerbodyshot/EQuPdPSxo2xmXDwwoVRx4j.png?ixlib=java-2.1.0&w=400&s=a22c84e43ee55c164fbb59fbb35366a6",
       name: "Gabriel 'Fallen' Tolledo",
-      function: "Awper",
+      function: "Awper - IGL",
       url: "https://www.hltv.org/player/2023/fallen",
     },
     {
@@ -45,7 +44,7 @@ function App() {
       imageUrl:
         "https://img-cdn.hltv.org/playerbodyshot/-JQfNT1ijoDX06XY6vO4PF.png?ixlib=java-2.1.0&w=400&s=a3b12775be6f8f6f41cf389b141ca52d",
       name: "Felipe 'skullz' Medeiros",
-      function: "Utility",
+      function: "Rifler",
       url: "https://www.hltv.org/player/18676/skullz",
     },
   ];
@@ -126,11 +125,11 @@ function App() {
 
   return (
     <>
-      <Header></Header>
-      <Carrosel></Carrosel>
-      <Players players={players}></Players>
-      <Achievements achievements={achievements}></Achievements>
-      <Footer></Footer>
+      <Header />
+      <Carrosel />
+      <Players players={players} />
+      <Achievements achievements={achievements} />
+      <Footer />
     </>
   );
 }
