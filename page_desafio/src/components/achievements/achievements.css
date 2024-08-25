@@ -1,18 +1,18 @@
-.container-achievements{
-    display: flex;
-    flex-direction: column;
-    background-color: #151515;
-    text-align: center;
-    padding-bottom: 16px;
+.container-achievements {
+  display: flex;
+  flex-direction: column;
+  background-color: #151515;
+  text-align: center;
+  padding-bottom: 16px;
 }
 
-.container-achievements h3{
-    color: #fff;
-    padding-top: 15px;
-    text-align: center;
-    font-weight: 500;
-    font-size: 25px;
-    margin-left: 15px ;
-    margin-top: 5px;
-    margin-bottom: 10px;
+.container-achievements h3 {
+  color: #fff;
+  padding-top: 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }

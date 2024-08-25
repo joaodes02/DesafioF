@@ -23,8 +23,8 @@ const Achievement = ({ achievement }) => {
               achievement.position === "1º"
                 ? ouro
                 : achievement.position === "2º"
-                ? prata
-                : bronze
+                  ? prata
+                  : bronze
             }
             alt="Medal Gold"
           />

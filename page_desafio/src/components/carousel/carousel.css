@@ -1,13 +1,12 @@
 .carrossel {
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .slide-item {
-    width: 100%;
-    height: 700px;
-    object-fit: cover;
-    object-position: center;
-
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  object-position: center;
 }
