@@ -7,7 +7,7 @@ const Players = ({ players }) => {
       <h2 id="players">Counter-Strike 2</h2>
       <div className="container-players">
         {players.map((player) => (
-          <Player player={player}></Player>
+          <Player player={player} />
         ))}
       </div>
     </>

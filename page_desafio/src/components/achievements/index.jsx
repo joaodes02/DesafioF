@@ -7,7 +7,7 @@ const Achievements = ({ achievements }) => {
       <div id="achievements" className="container-achievements">
         <h3>Conquistas</h3>
         {achievements.map((achievement) => (
-          <Achievement achievement={achievement}></Achievement>
+          <Achievement achievement={achievement} />
         ))}
       </div>
     </>

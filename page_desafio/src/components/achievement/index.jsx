@@ -4,10 +4,25 @@ import prata from "../../assets/images/prata.png";
 import bronze from "../../assets/images/bronze.png";
 
 const Achievement = ({ achievement }) => {
+  const { id, position, date, camp, local, url } = achievement;
+
   function goToSite() {
     var win = window.open(achievement.url, "_blank");
     win.focus();
   }
+
+  const getMedalImage = (position) => {
+    switch (position) {
+      case "1º":
+        return ouro;
+      case "2º":
+        return prata;
+      case "3º":
+        return bronze;
+      default:
+        return bronze;
+    }
+  };
 
   return (
     <>
@@ -19,14 +34,8 @@ const Achievement = ({ achievement }) => {
         <div className="achievement-position">
           <img
             width="55px"
-            src={
-              achievement.position === "1º"
-                ? ouro
-                : achievement.position === "2º"
-                  ? prata
-                  : bronze
-            }
-            alt="Medal Gold"
+            src={getMedalImage(position)}
+            alt={`Medal ${position}`}
           />
           <span>{achievement.position}</span>
         </div>
