@@ -39,3 +39,16 @@
   );
   cursor: pointer;
 }
+
+@media screen and (max-width: 1440px) {
+  .container-player {
+    width: 260px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .container-player {
+    width: 240px;
+  }
+}
