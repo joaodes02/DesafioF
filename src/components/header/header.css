@@ -62,8 +62,15 @@ a:hover {
     font-size: 13px;
   }
 }
+
 @media screen and (max-width: 440px) {
   .titles {
     display: none;
+  }
+  header {
+    height: 4.5rem;
+  }
+  .navbar img {
+    width: 50px;
   }
 }

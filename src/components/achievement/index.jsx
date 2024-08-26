@@ -33,7 +33,7 @@ const Achievement = ({ achievement }) => {
       >
         <div className="achievement-position">
           <img
-            width="55px"
+            width="30px"
             src={getMedalImage(position)}
             alt={`Medal ${position}`}
           />

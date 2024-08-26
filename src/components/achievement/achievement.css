@@ -25,6 +25,7 @@
 .info-achievement span {
   font-weight: bold;
   color: #fff;
+  margin-left: 15px;
 }
 
 .achievement-position {
@@ -67,10 +68,14 @@
   .info-achievement span {
     font-size: 9px;
   }
+  .info-achievement {
+    gap: 0;
+    padding: 0px 10px;
+  }
 }
 @media screen and (max-width: 398px) {
   .info-achievement {
     gap: 0;
-    padding: 0;
+    padding: 0 5px;
   }
 }
